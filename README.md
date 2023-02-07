@@ -12,10 +12,9 @@
   2. [856. Score of Parentheses]@
   3. [291. Word Pattern II]@
 
-## Adcanced
-### Trie
+## Trie
   1. [208. Implement Trie (Prefix Tree)]
-  2. [648. Replace Words]@
+  2. [648. Replace Words]
   3. [676]
   4. [677]
   5. [720]
@@ -28,6 +27,12 @@
   12. [336]
   13. [212]
   14. [208]
+
+## BIT/Segment Tree
+  1. [307]
+
+## Monotone queue:
+  1. [239]
 
 ## Monotone Stack：
   1. [2355 Maximum Number of Books You Can Take](https://github.com/haojicc/Leetcode/blob/main/code/2355%20Maximum%20Number%20of%20Books%20You%20Can%20Take.cpp)
