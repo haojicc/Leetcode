@@ -16,7 +16,7 @@
   7. #1048
 
 ### I: O(n), S = O(n), T = O(n):
-  1. #70
+  1. [70. Climbing Stairs](https://github.com/haojicc/Leetcode/blob/main/code/70.%20Climbing%20Stairs.cpp)
   2. #746
   3. #1137
   4. #303
