@@ -3,13 +3,13 @@
 ## D&C
   1. [169. Majority Element]
   2. [153. Find Minimum in Rotated Sorted Array]
-  3. [912. Sort an Array]
-  4. [315. Count of Smaller Numbers After Self]
+  3. [912. Sort an Array]@
+  4. [315. Count of Smaller Numbers After Self]@
 
 ## Recursion
-  1. [726. Number of Atoms]
-  2. [856. Score of Parentheses]
-  3. [291. Word Pattern II]
+  1. [726. Number of Atoms]@
+  2. [856. Score of Parentheses]@
+  3. [291. Word Pattern II]@
 
 ## Adcanced
   1. [208. Implement Trie (Prefix Tree)]
