@@ -1,5 +1,19 @@
 # Leetcode
 
+## D&C
+  1. [169. Majority Element]
+  2. [153. Find Minimum in Rotated Sorted Array]
+  3. [912. Sort an Array]
+  4. [315. Count of Smaller Numbers After Self]
+
+## Recursion
+  1. [726. Number of Atoms]
+  2. [856. Score of Parentheses]
+  3. [291. Word Pattern II]
+
+## Adcanced
+  1. [208. Implement Trie (Prefix Tree)]
+  2. [648. Replace Words]@
 
 ## Monotone Stack：
   1. [2355 Maximum Number of Books You Can Take](https://github.com/haojicc/Leetcode/blob/main/code/2355%20Maximum%20Number%20of%20Books%20You%20Can%20Take.cpp)
