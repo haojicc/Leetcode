@@ -5,14 +5,14 @@
   1. 2355. Maximum Number of Books You Can Take
   
 * **Dynamic Programming:**
-  - I: O(n), S = O(n), T = O(n):
-    1. #70
-    2. #746
-    3. #1137
-    4. #303
-    5. #1218
-    6. #53
-    7. #121
+I: O(n), S = O(n), T = O(n):
+  1. #70
+  2. #746
+  3. #1137
+  4. #303
+  5. #1218
+  6. #53
+  7. #121
   - I: O(mn), S = O(mn), T = O(mn)
     1. #62
     2. #63
