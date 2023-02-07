@@ -2,7 +2,7 @@
 
 
 ## Monotone Stack：
-  1. 2355 Maximum Number of Books You Can Take
+  1. 2355 Maximum Number of Books You Can Take [Contribution guidelines for this project](Leetcode/2355 Maximum Number of Books You Can Take.cpp)
   
 ## Dynamic Programming:
 **I: O(n), S = O(n), T = O(n):**
