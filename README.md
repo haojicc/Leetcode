@@ -1,7 +1,7 @@
 # Leetcode
 
 
-Monotone Stack：
+*Monotone Stack：
   #2355. Maximum Number of Books You Can Take
   
 Dynamic Programming:
