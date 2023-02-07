@@ -5,6 +5,7 @@
   2. [153. Find Minimum in Rotated Sorted Array]
   3. [912. Sort an Array]@
   4. [315. Count of Smaller Numbers After Self]@
+  5. [154.]
 
 ## Recursion
   1. [726. Number of Atoms]@
@@ -12,8 +13,21 @@
   3. [291. Word Pattern II]@
 
 ## Adcanced
+- Trie
   1. [208. Implement Trie (Prefix Tree)]
   2. [648. Replace Words]@
+  3. [676]
+  4. [677]
+  5. [720]
+  6. [745]
+  7. [211]
+  8. [642]
+  9. [472]
+  10. [425]
+  11. [421]
+  12. [336]
+  13. [212]
+  14. [208]
 
 ## Monotone Stack：
   1. [2355 Maximum Number of Books You Can Take](https://github.com/haojicc/Leetcode/blob/main/code/2355%20Maximum%20Number%20of%20Books%20You%20Can%20Take.cpp)
