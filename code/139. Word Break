@@ -1,0 +1,60 @@
+/**
+Given a string s and a dictionary of strings wordDict, return true if s can be segmented
+into a space-separated sequence of one or more dictionary words.
+ */
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include "unordered_map"
+#include <unordered_set>
+#include <queue>
+#include <numeric>
+
+using namespace std;
+
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
+        return wordBreak_h(s, dict);
+    }
+
+    bool wordBreak_h(string s, unordered_set<string>& dict){
+        if(mem_.count(s)){
+            return mem_[s];
+        }
+
+        if(dict.count(s)){
+            mem_[s] = true;
+            return true;
+        }
+
+        for(int i = 1; i < s.length(); i++){
+            string left = s.substr(0, i);
+            string right = s.substr(i);
+
+            if(dict.count(left) && wordBreak_h(right, dict)){
+                mem_[s] = true;
+                return true;
+            }
+        }
+
+        mem_[s] = false;
+        return false;
+    }
+
+private:
+    unordered_map<string, bool> mem_;
+};
+
+
+int main() {
+    Solution obj;
+    string s = "leetcode";
+    vector<string> wordDict {"leet","code"};
+    bool res = obj.wordBreak(s,wordDict);
+
+    cout << res << endl;
+}
