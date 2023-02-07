@@ -8,7 +8,7 @@
 
 ### I: O(n), S = O(n), T = O(n^2)
   1. [139. Word Break](https://github.com/haojicc/Leetcode/blob/main/code/139.%20Word%20Break)
-  2. #300
+  2. [300. Longest Increasing Subsequence](https://github.com/haojicc/Leetcode/blob/main/code/300.%20Longest%20Increasing%20Subsequence.cpp)
   3. #96
   4. [140. Word Break II](https://github.com/haojicc/Leetcode/blob/main/code/140.%20Word%20Break%20II)
   5. [818. Race Car](https://github.com/haojicc/Leetcode/blob/main/code/818.%20Race%20Car)
