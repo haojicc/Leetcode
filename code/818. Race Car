@@ -68,16 +68,43 @@ public:
     }
 };
 
-class Solution_DP{
+class Solution_DP {
 public:
-    int racecar(int target){
+    int racecar2(int target){
+        m_ = vector<int> (target+1, 0);
+        return dp(target);
+    }
 
+private:
+    vector<int> m_;
+
+    int dp(int t){
+        if(m_[t]){
+            return m_[t];
+        }
+
+        int n = ceil(log2(t + 1));
+
+        if((1 << n) == t + 1){
+            return m_[t] = n;
+        }
+
+        m_[t] = n + 1 + dp((1 << n) - 1 - t);
+        for(int m = 0; m < (n - 1); m++){
+            int cur = (1 << (n - 1)) - (1 << m);
+            m_[t] = min(m_[t], n + m + 1 + dp(t - cur));
+        }
+        return m_[t];
     }
 };
 
 int main() {
     Solution_BFS obj;
-    int resBFS = obj.racecar(6);
+    int resBFS = obj.racecar(23);
 
-    cout << resBFS << endl;
+    Solution_DP obj2;
+    int resDP = obj2.racecar2(23);
+
+    cout << "BFS: " << resBFS << endl;
+    cout << "DP: " << resDP << endl;
 }
