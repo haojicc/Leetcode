@@ -17,7 +17,7 @@
 
 ### I: O(n), S = O(n), T = O(n):
   1. [70. Climbing Stairs](https://github.com/haojicc/Leetcode/blob/main/code/70.%20Climbing%20Stairs.cpp)
-  2. #746
+  2. [746. Min Cost Climbing Stairs](https://github.com/haojicc/Leetcode/blob/main/code/746.%20Min%20Cost%20Climbing%20Stairs.cpp)
   3. #1137
   4. #303
   5. #1218
