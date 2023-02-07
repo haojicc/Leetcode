@@ -1,14 +1,14 @@
 # Leetcode
 
 
-* Monotone Stack：
+* **Monotone Stack：**
   - 2355. Maximum Number of Books You Can Take
   
-* Dynamic Programming:
+* **Dynamic Programming:**
   - I: O(n), S = O(n), T = O(n):
-    #70
-    #746
-    #1137
+    - #70
+    - #746
+    - #1137
     #303
     #1218
     #53
