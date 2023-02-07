@@ -7,7 +7,7 @@
 ## Dynamic Programming:
 
 ### I: O(n), S = O(n), T = O(n^2)
-  1. [139. Word Break]()
+  1. [139. Word Break](https://github.com/haojicc/Leetcode/blob/main/code/139.%20Word%20Break)
   2. #300
   3. #96
   4. #140
