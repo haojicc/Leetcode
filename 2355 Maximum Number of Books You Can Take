@@ -16,33 +16,6 @@ Explanation:
 You have taken 19 books, so return 19.
 It can be proven that 19 is the maximum number of books you can take.
 
-Example 2:
-
-Input: books = [7,0,3,4,5]
-Output: 12
-Explanation:
-- Take 3 books from shelf 2.
-- Take 4 books from shelf 3.
-- Take 5 books from shelf 4.
-You have taken 12 books so return 12.
-It can be proven that 12 is the maximum number of books you can take.
-
-Example 3:
-
-Input: books = [8,2,3,7,3,4,0,1,4,3]
-Output: 13
-Explanation:
-- Take 1 book from shelf 0.
-- Take 2 books from shelf 1.
-- Take 3 books from shelf 2.
-- Take 7 books from shelf 3.
-You have taken 13 books so return 13.
-It can be proven that 13 is the maximum number of books you can take.
- 
-Constraints:
-1 <= books.length <= 105
-0 <= books[i] <= 105
-
 来源：力扣（LeetCode）
 链接：https://leetcode.cn/problems/maximum-number-of-books-you-can-take
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
