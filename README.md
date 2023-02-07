@@ -13,7 +13,7 @@
   3. [291. Word Pattern II]@
 
 ## Adcanced
-###Trie
+### Trie
   1. [208. Implement Trie (Prefix Tree)]
   2. [648. Replace Words]@
   3. [676]
