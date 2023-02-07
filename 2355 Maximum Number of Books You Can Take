@@ -1,0 +1,60 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include "unordered_map"
+#include <unordered_set>
+#include <queue>
+#include <numeric>
+
+using namespace std;
+
+typedef long long ll;
+
+class Solution {
+public:
+    ll calSum(ll tail, ll len){
+        ll res = (tail + tail - len + 1) * len / 2LL;
+        return res;
+    }
+
+    long long maximumBooks(vector<int>& books) {
+        int n = books.size();
+        vector<pair<int, int>> stk;
+        vector<ll> dp(n);
+        ll ans = 0;
+        for(int i = 0; i < n; i++){
+            cout << "-----------"  << "第" << i << "-----------" << endl;
+            int cur = books[i] - i;
+            while(stk.size() && stk.back().first > cur){
+                stk.pop_back();
+            }
+
+            int j = max(-1, i - books[i]);
+            if(stk.size()){
+                j = stk.back().second;
+                dp[i] = max(dp[i], dp[j]);
+            }
+            stk.push_back({cur, i});
+            dp[i] += calSum(books[i], i - j);
+            ans = max(ans, dp[i]);
+            printStk(stk);
+        }
+        return ans;
+    }
+
+private:
+    void printStk(vector<pair<int, int>> stk){
+        for(auto item: stk){
+            cout << "first:" << item.first << "    second:" << item.second << endl;
+        }
+    }
+};
+
+int main() {
+    Solution obj;
+    vector<int> books{8,5,2,7,9};
+    ll res = obj.maximumBooks(books);
+
+    cout << res << endl;
+}
