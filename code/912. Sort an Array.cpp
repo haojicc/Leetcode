@@ -6,7 +6,7 @@ complexity and with the smallest space complexity possible.
  */
 #include <iostream>
 #include <vector>
-#define EOD -1
+#define EOD INT_MIN
 using namespace std;
 
 class SolutionMergeSort {
