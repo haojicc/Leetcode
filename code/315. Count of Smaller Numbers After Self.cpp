@@ -56,7 +56,7 @@ private:
             return;
         }
         int n = nums.size();
-        vector<int> tempNums(n, 0);
+        vector<int> tempNums(r-l+1, 0);
 
         int i = l;
         int j = m + 1;
@@ -68,18 +68,18 @@ private:
                 tempNums[k++] = sorted[j++];
             }
         }
-        if(j <= r){
-            while(j <= r && k <= r){
-                tempNums[k++] = sorted[j++];
-            }
+
+        while(j <= r && k <= r){
+            tempNums[k++] = sorted[j++];
         }
-        if(i <= m){
-            while(i <= m && k <= r){
-                tempNums[k++] = sorted[i++];
-            }
+
+
+        while(i <= m && k <= r){
+            tempNums[k++] = sorted[i++];
         }
-        for(int index = l; index <= r; index++){
-            sorted[index] = tempNums[index];
+        
+        for(int index = 0; index < r-l+1; index++){
+            sorted[l + index] = tempNums[index];
         }
     }
 };
