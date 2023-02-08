@@ -1,10 +1,10 @@
 # Leetcode
 
 ## D&C
-  1. [169. Majority Element]
-  2. [153. Find Minimum in Rotated Sorted Array]
-  3. [912. Sort an Array]@
-  4. [315. Count of Smaller Numbers After Self]@
+  1. [169. Majority Element](https://github.com/haojicc/Leetcode/blob/main/code/169.%20Majority%20Element.cpp)
+  2. [153. Find Minimum in Rotated Sorted Array](https://github.com/haojicc/Leetcode/blob/main/code/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
+  3. [912. Sort an Array](https://github.com/haojicc/Leetcode/blob/main/code/912.%20Sort%20an%20Array.cpp)
+  4. [315. Count of Smaller Numbers After Self]
   5. [154.]
 
 ## Recursion
