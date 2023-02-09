@@ -4,7 +4,7 @@
 ## bisection method
   1. [153. Find Minimum in Rotated Sorted Array](https://github.com/haojicc/Leetcode/blob/main/code/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)
   2. [169. Majority Element](https://github.com/haojicc/Leetcode/blob/main/code/169.%20Majority%20Element.cpp)
-  3. [154.]
+  3. [154. Find Minimum in Rotated Sorted Array II](https://github.com/haojicc/Leetcode/blob/main/code/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.cpp)
 ## Divid and Conquer
   1. [912. Sort an Array](https://github.com/haojicc/Leetcode/blob/main/code/912.%20Sort%20an%20Array.cpp)
   2. [315. Count of Smaller Numbers After Self](https://github.com/haojicc/Leetcode/blob/main/code/315.%20Count%20of%20Smaller%20Numbers%20After%20Self.cpp):
