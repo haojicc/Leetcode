@@ -20,10 +20,3 @@ public:
         return dp[n];
     }
 };
-
-int main() {
-    Solution obj;
-    int num = 10;
-    int res = obj.numTrees(num);
-    cout << res << endl;
-}

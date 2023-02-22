@@ -24,10 +24,3 @@ public:
         return dp.size();
     }
 };
-
-int main() {
-    Solution obj;
-    vector<int> nums = {10,9,2,5,3,7,101,18};
-    int res = obj.lengthOfLIS(nums);
-    cout << res << endl;
-}

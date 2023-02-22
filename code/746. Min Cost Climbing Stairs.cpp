@@ -22,10 +22,3 @@ public:
         return dp1;
     }
 };
-
-int main() {
-    Solution obj;
-    vector<int> cost{10,15,20};
-    int res = obj.minCostClimbingStairs(cost);
-    cout << res << endl;
-}

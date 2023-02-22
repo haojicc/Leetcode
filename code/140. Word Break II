@@ -57,16 +57,3 @@ private:
 private:
     unordered_map<string, vector<string>> mem_;
 };
-
-
-int main() {
-    Solution obj;
-    string s = "catsanddog";
-    vector<string> wordDict {"cat","cats","and","sand","dog"};
-    vector<string>  res = obj.wordBreak(s,wordDict);
-
-    for(auto item: res){
-        cout << item << endl;
-    }
-
-}

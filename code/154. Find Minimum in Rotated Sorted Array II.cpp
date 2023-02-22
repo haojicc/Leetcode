@@ -34,12 +34,3 @@ private:
         return min(left, right);
     }
 };
-
-
-int main() {
-    Solution obj;
-
-    vector<int> nums{5,6,0,1};
-    int res = obj.findMin(nums);
-    cout << res;
-}

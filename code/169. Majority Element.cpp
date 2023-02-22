@@ -33,12 +33,3 @@ public:
         return nums[nums.size() / 2];
     }
 };
-
-int main() {
-    Solution obj;
-    Solution2 obj2;
-    vector<int> arr{3,2,3};
-    int res = obj.majorityElement(arr);
-    int res2 = obj2.majorityElement(arr);
-    cout << res << res2 << endl;
-}

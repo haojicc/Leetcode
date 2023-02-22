@@ -97,14 +97,3 @@ private:
         return m_[t];
     }
 };
-
-int main() {
-    Solution_BFS obj;
-    int resBFS = obj.racecar(23);
-
-    Solution_DP obj2;
-    int resDP = obj2.racecar2(23);
-
-    cout << "BFS: " << resBFS << endl;
-    cout << "DP: " << resDP << endl;
-}

@@ -25,10 +25,3 @@ public:
         return ans;
     }
 };
-
-int main() {
-    Solution obj;
-    int n = 25;
-    int res = obj.tribonacci(n);
-    cout << res << endl;
-}

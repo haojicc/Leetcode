@@ -34,13 +34,3 @@ public:
         return nums[r];
     }
 };
-
-
-int main() {
-    Solution obj;
-
-    vector<int> arr{11,13,15,17};
-    int res = obj.findMin(arr);
-
-    cout << res <<  endl;
-}

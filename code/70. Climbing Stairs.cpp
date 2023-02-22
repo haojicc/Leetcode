@@ -17,10 +17,3 @@ public:
         return dp[n];
     }
 };
-
-int main() {
-    Solution obj;
-    int num = 10;
-    int res = obj.climbStairs(num);
-    cout << res << endl;
-}

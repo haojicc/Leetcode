@@ -84,21 +84,3 @@ private:
     }
 };
 
-
-int main() {
-    Solution0 obj;
-    Solution1 obj1;
-
-    vector<int> nums{5,2,6,1};
-    vector<int> res = obj.countSmaller(nums);
-    vector<int> res1 = obj1.countSmaller(nums);
-
-    for(auto item: res){
-        cout << item << "|";
-    }
-    cout << "\n";
-    for(auto item: res1){
-        cout << item << "|";
-    }
-
-}

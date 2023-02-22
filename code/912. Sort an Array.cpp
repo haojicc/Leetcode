@@ -203,28 +203,3 @@ private:
         return;
     }
 };
-
-int main() {
-    SolutionMergeSort obj;
-    SolutionHeapSort obj2;
-    SolutionQuickSort obj3;
-
-    vector<int> nums{11,13,15,17};
-    vector<int> res = obj.sortArray(nums);
-    vector<int> res2 = obj2.sortArray(nums);
-    vector<int> res3 = obj3.sortArray(nums);
-
-
-    cout << "MergeSort" << endl;
-    for(auto item: res){
-        cout << item << endl;
-    }
-    cout << "HeapSort" << endl;
-    for(auto item: res2){
-        cout << item << endl;
-    }
-    cout << "QuickSort" << endl;
-    for(auto item: res3){
-        cout << item << endl;
-    }
-}

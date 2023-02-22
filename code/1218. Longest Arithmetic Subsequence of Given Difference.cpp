@@ -23,11 +23,3 @@ public:
         return ans;
     }
 };
-
-int main() {
-    Solution obj;
-    vector<int> arr{1,2,3,4};
-    int difference = 1;
-    int res = obj.longestSubsequence(arr, difference);
-    cout << res << endl;
-}

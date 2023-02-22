@@ -49,12 +49,3 @@ private:
     unordered_map<string, bool> mem_;
 };
 
-
-int main() {
-    Solution obj;
-    string s = "leetcode";
-    vector<string> wordDict {"leet","code"};
-    bool res = obj.wordBreak(s,wordDict);
-
-    cout << res << endl;
-}

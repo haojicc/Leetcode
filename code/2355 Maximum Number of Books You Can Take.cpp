@@ -74,11 +74,3 @@ private:
         }
     }
 };
-
-int main() {
-    Solution obj;
-    vector<int> books{8,5,2,7,9};
-    ll res = obj.maximumBooks(books);
-
-    cout << res << endl;
-}
