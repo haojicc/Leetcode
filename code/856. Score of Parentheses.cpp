@@ -1,6 +1,3 @@
-#include "string"
-using namespace std;
-
 /**
  * Given a balanced parentheses string s, return the score of the string.
  * The score of a balanced parentheses string is based on the following rule:
@@ -8,6 +5,8 @@ using namespace std;
  * AB has score A + B, where A and B are balanced parentheses strings.
  * (A) has score 2 * A, where A is a balanced parentheses string.
  */
+#include "string"
+using namespace std;
 
 /**
  * Because string s must be balanced, it is possible to count from the outside to the inside layer by layer.
@@ -15,6 +14,7 @@ using namespace std;
  * So use a for loop to check for the presence of balanced substrings.
  * If there is no such substring, remove one layer and the result *2.
  */
+
 class Solution1 {
 public:
     int scoreOfParentheses(string s) {
@@ -38,10 +38,9 @@ private:
         return 2 * sc(s, l+1, r-1);
     }
 };
-
 /**
-* 还可以用栈的思想来解决这个问题。
- * 当（）出现的时候，我们向结果中增加分数，具体要加多少分取决于（）外有多少层。
+* It also can be solved by the idea of a stack.
+ * When () appears, we add scores to the result, and exactly how many scores to add depends on how many layers are outside ().
 */
 
 class Solution2 {
@@ -59,7 +58,6 @@ public:
                 res += 1 << d;
             }
         }
-
         return res;
     }
 };
