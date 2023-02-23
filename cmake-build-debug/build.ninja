@@ -124,6 +124,12 @@ build CMakeFiles/Leetcode.dir/code/53._Maximum_Subarray.cpp.o: CXX_COMPILER__Lee
   OBJECT_DIR = CMakeFiles/Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles/Leetcode.dir/code
 
+build CMakeFiles/Leetcode.dir/code/726_Number_of_Atoms.cpp.o: CXX_COMPILER__Leetcode_Debug /Users/haoji/CLionProjects/Leetcode/code/726_Number_of_Atoms.cpp || cmake_object_order_depends_target_Leetcode
+  DEP_FILE = CMakeFiles/Leetcode.dir/code/726_Number_of_Atoms.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles/Leetcode.dir/code
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Leetcode
@@ -132,7 +138,7 @@ build CMakeFiles/Leetcode.dir/code/53._Maximum_Subarray.cpp.o: CXX_COMPILER__Lee
 #############################################
 # Link the executable Leetcode
 
-build Leetcode: CXX_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/code/1137._N-th_Tribonacci_Number.cpp.o CMakeFiles/Leetcode.dir/code/1218._Longest_Arithmetic_Subsequence_of_Given_Difference.cpp.o CMakeFiles/Leetcode.dir/code/153._Find_Minimum_in_Rotated_Sorted_Array.cpp.o CMakeFiles/Leetcode.dir/code/154._Find_Minimum_in_Rotated_Sorted_Array_II.cpp.o CMakeFiles/Leetcode.dir/code/169._Majority_Element.cpp.o CMakeFiles/Leetcode.dir/code/2355_Maximum_Number_of_Books_You_Can_Take.cpp.o CMakeFiles/Leetcode.dir/code/300._Longest_Increasing_Subsequence.cpp.o CMakeFiles/Leetcode.dir/code/315._Count_of_Smaller_Numbers_After_Self.cpp.o CMakeFiles/Leetcode.dir/code/70._Climbing_Stairs.cpp.o CMakeFiles/Leetcode.dir/code/746._Min_Cost_Climbing_Stairs.cpp.o CMakeFiles/Leetcode.dir/code/912._Sort_an_Array.cpp.o CMakeFiles/Leetcode.dir/code/96._Unique_Binary_Search_Trees.cpp.o CMakeFiles/Leetcode.dir/code/53._Maximum_Subarray.cpp.o
+build Leetcode: CXX_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/code/1137._N-th_Tribonacci_Number.cpp.o CMakeFiles/Leetcode.dir/code/1218._Longest_Arithmetic_Subsequence_of_Given_Difference.cpp.o CMakeFiles/Leetcode.dir/code/153._Find_Minimum_in_Rotated_Sorted_Array.cpp.o CMakeFiles/Leetcode.dir/code/154._Find_Minimum_in_Rotated_Sorted_Array_II.cpp.o CMakeFiles/Leetcode.dir/code/169._Majority_Element.cpp.o CMakeFiles/Leetcode.dir/code/2355_Maximum_Number_of_Books_You_Can_Take.cpp.o CMakeFiles/Leetcode.dir/code/300._Longest_Increasing_Subsequence.cpp.o CMakeFiles/Leetcode.dir/code/315._Count_of_Smaller_Numbers_After_Self.cpp.o CMakeFiles/Leetcode.dir/code/70._Climbing_Stairs.cpp.o CMakeFiles/Leetcode.dir/code/746._Min_Cost_Climbing_Stairs.cpp.o CMakeFiles/Leetcode.dir/code/912._Sort_an_Array.cpp.o CMakeFiles/Leetcode.dir/code/96._Unique_Binary_Search_Trees.cpp.o CMakeFiles/Leetcode.dir/code/53._Maximum_Subarray.cpp.o CMakeFiles/Leetcode.dir/code/726_Number_of_Atoms.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/Leetcode.dir
   POST_BUILD = :
