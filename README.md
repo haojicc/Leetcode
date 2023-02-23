@@ -10,7 +10,7 @@
   2. [315. Count of Smaller Numbers After Self](https://github.com/haojicc/Leetcode/blob/main/code/315.%20Count%20of%20Smaller%20Numbers%20After%20Self.cpp):
 
 ## Recursion
-  1. [726. Number of Atoms]@
+  1. [726. Number of Atoms]@string
   2. [856. Score of Parentheses]@
   3. [291. Word Pattern II]@
 
