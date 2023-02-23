@@ -4,12 +4,10 @@ into a space-separated sequence of one or more dictionary words.
  */
 
 #include <iostream>
-#include <algorithm>
 #include <vector>
 #include <stack>
 #include "unordered_map"
 #include <unordered_set>
-#include <queue>
 #include <numeric>
 
 using namespace std;

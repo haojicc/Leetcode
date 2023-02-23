@@ -66,7 +66,8 @@
 				15,
 				16,
 				17,
-				18
+				18,
+				19
 			]
 		}
 	],
@@ -113,7 +114,8 @@
 				15,
 				16,
 				17,
-				18
+				18,
+				19
 			]
 		},
 		{
@@ -237,6 +239,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "code/856. Score of Parentheses.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code/290. Word Pattern.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
