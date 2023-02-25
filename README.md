@@ -12,8 +12,8 @@
 ## Recursion
   1. [726. Number of Atoms](https://github.com/haojicc/Leetcode/blob/main/code/726_Number_of_Atoms.cpp)@string
   2. [856. Score of Parentheses](https://github.com/haojicc/Leetcode/blob/main/code/856.%20Score%20of%20Parentheses.cpp)
-  3. [290.word pattern]()
-  4. [291.Word Pattern II]()
+  3. [290.word pattern](https://github.com/haojicc/Leetcode/blob/main/code/290.%20Word%20Pattern.cpp)
+  4. [291.Word Pattern II](https://github.com/haojicc/Leetcode/blob/main/code/291.Word%20Pattern%202.cpp)
 
 ## Trie
   1. [208. Implement Trie (Prefix Tree)]
