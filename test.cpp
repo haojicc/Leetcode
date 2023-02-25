@@ -1,19 +1,10 @@
-/**
- * Given a pattern and a string s, find if s follows the same pattern.
- * Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
- */
-
+#include "iostream"
 #include "string"
 #include "vector"
 #include "unordered_map"
-#include "unordered_set"
 using namespace std;
 
-/**
- * The key point is that consistency needs to be determined in both directions.
- * pattern: abba
- * s: do do do do
- */
+
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
@@ -28,15 +19,18 @@ public:
             str.push_back(temp);
             temp = "";
         }
+        for(auto item: str){
+            cout << item << endl;
+        }
         if(str.size() != pattern.length()) return false;
 
         unordered_map<char, string> dict1;
-        unordered_set<string> dict2;
+        unordered_map<string, char> dict2;
         for(int j = 0; j < pattern.length(); j++){
             if(dict1.find(pattern[j]) == dict1.end()){
                 if(dict2.find(str[j]) != dict2.end()) return false;
                 dict1[pattern[j]] = str[j];
-                dict2.insert(str[j]);
+                dict2[str[j]] = pattern[j];
             }else{
                 if(dict1[pattern[j]] != str[j]) return false;
             }
@@ -44,3 +38,14 @@ public:
         return true;
     }
 };
+
+int main(){
+    Solution obj;
+    string p = "abba";
+    string s = "do ca ca do";
+
+    bool ret = obj.wordPattern(p,s);
+    cout << ret <<endl;
+
+    return 0;
+}
