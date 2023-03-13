@@ -16,8 +16,8 @@
   4. [291.Word Pattern II](https://github.com/haojicc/Leetcode/blob/main/code/291.Word%20Pattern%202.cpp)
 
 ## Trie
-  1. [208. Implement Trie (Prefix Tree)](https://github.com/haojicc/Leetcode/blob/main/code/208.%20Implement%20Trie%20(Prefix%20Tree))
-  2. [648. Replace Words](https://github.com/haojicc/Leetcode/blob/main/code/648.%20Replace%20Words.go)
+  1. [208. Implement Trie (Prefix Tree)](https://github.com/haojicc/Leetcode/blob/main/code/208.%20Implement%20Trie%20(Prefix%20Tree)) by Golang
+  2. [648. Replace Words](https://github.com/haojicc/Leetcode/blob/main/code/648.%20Replace%20Words.go) by Golang
   3. [676]
   4. [677]
   5. [720]
