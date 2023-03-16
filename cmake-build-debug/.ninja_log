@@ -1,19 +1,19 @@
 # ninja log v5
 3	359	1677211807108173456	CMakeFiles/Leetcode.dir/code/169._Majority_Element.cpp.o	33e9d67b484ef399
 2	349	1677211875811233791	CMakeFiles/Leetcode.dir/test.cpp.o	2d3f8fdfe768653
-643	901	1677211807650576530	CMakeFiles/Leetcode.dir/code/53._Maximum_Subarray.cpp.o	4e3743ac6e86d05d
 360	676	1677211807425255449	CMakeFiles/Leetcode.dir/code/315._Count_of_Smaller_Numbers_After_Self.cpp.o	e0e4e83f8ef383ba
-375	723	1677211807470858787	CMakeFiles/Leetcode.dir/code/746._Min_Cost_Climbing_Stairs.cpp.o	289293416fde5525
-0	51	1677213340144158257	build.ninja	cae92c92d1b9b872
+643	901	1677211807650576530	CMakeFiles/Leetcode.dir/code/53._Maximum_Subarray.cpp.o	4e3743ac6e86d05d
 676	875	1677211807624545806	CMakeFiles/Leetcode.dir/code/856._Score_of_Parentheses.cpp.o	7447c7a0e18bcf81
-322	643	1677211807391101195	CMakeFiles/Leetcode.dir/code/300._Longest_Increasing_Subsequence.cpp.o	8c835e76166b11bc
+375	723	1677211807470858787	CMakeFiles/Leetcode.dir/code/746._Min_Cost_Climbing_Stairs.cpp.o	289293416fde5525
+0	51	1678933022969528235	build.ninja	cae92c92d1b9b872
 3	375	1677211807122803429	CMakeFiles/Leetcode.dir/code/153._Find_Minimum_in_Rotated_Sorted_Array.cpp.o	f396d93f14a0d60e
 388	701	1677211807447074973	CMakeFiles/Leetcode.dir/code/96._Unique_Binary_Search_Trees.cpp.o	e2c5b9c12077799d
 367	664	1677211807410798182	CMakeFiles/Leetcode.dir/code/70._Climbing_Stairs.cpp.o	ac2a5ccdf8646c8a
 4	367	1677211807116036493	CMakeFiles/Leetcode.dir/code/2355_Maximum_Number_of_Books_You_Can_Take.cpp.o	c69699123b2a7f51
 3	322	1677211807070989435	CMakeFiles/Leetcode.dir/code/154._Find_Minimum_in_Rotated_Sorted_Array_II.cpp.o	76bb49602b695a0a
-664	913	1677211807662799054	CMakeFiles/Leetcode.dir/code/726_Number_of_Atoms.cpp.o	9c70d91bbaa7db2f
 349	382	1677211875846906137	Leetcode	bcfb6f8290bb2fd8
+664	913	1677211807662799054	CMakeFiles/Leetcode.dir/code/726_Number_of_Atoms.cpp.o	9c70d91bbaa7db2f
+322	643	1677211807391101195	CMakeFiles/Leetcode.dir/code/300._Longest_Increasing_Subsequence.cpp.o	8c835e76166b11bc
 3	388	1677211807134592629	CMakeFiles/Leetcode.dir/code/1218._Longest_Arithmetic_Subsequence_of_Given_Difference.cpp.o	afe0ed49d8559244
 380	677	1677211807426287052	CMakeFiles/Leetcode.dir/code/912._Sort_an_Array.cpp.o	f701172e01845835
 2	239	1677068501265007655	CMakeFiles/Leetcode.dir/code/53.Maximum_Subarray/53._Maximum_Subarray.cpp.o	882aa30071a47b74
