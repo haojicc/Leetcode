@@ -60,7 +60,7 @@ Fenwick Tree was proposed to solve the prefix sum problem.<br>
 This method is faster to implement update operations than prefix-sum methods.<br>
 The idea is to store Partial Sum in each Node and get total sum by traversing the tree from leaf to root.<br>
 
-1. [307]
+1. [307. Range Sum Query - Mutable](https://github.com/haojicc/Leetcode/blob/main/code/307.%20Range%20Sum%20Query%20-%20Mutable.cpp)
 2. [315]
 
 </p>
