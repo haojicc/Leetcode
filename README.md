@@ -38,7 +38,7 @@
 1. [208. Implement Trie (Prefix Tree)](https://github.com/haojicc/Leetcode/blob/main/code/208.%20Implement%20Trie%20(Prefix%20Tree)) by Golang
 2. [648. Replace Words](https://github.com/haojicc/Leetcode/blob/main/code/648.%20Replace%20Words.go) by Golang
 3. [676. Implement Magic Dictionary](https://github.com/haojicc/Leetcode/blob/main/code/676.%20Implement%20Magic%20Dictionary.go) by Golang
-4. [677]
+4. [677. Map Sum Pairs](https://github.com/haojicc/Leetcode/blob/main/code/677.%20Map%20Sum%20Pairs.cpp)
 5. [720]
 6. [745]
 7. [211]
