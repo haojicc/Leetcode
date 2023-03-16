@@ -19,4 +19,4 @@ add_executable(Leetcode
         "code/746. Min Cost Climbing Stairs.cpp"
         "code/818. Race Car"
         "code/912. Sort an Array.cpp"
-        "code/96. Unique Binary Search Trees.cpp" "code/53. Maximum Subarray.cpp" code/726_Number_of_Atoms.cpp "code/856. Score of Parentheses.cpp" "code/290. Word Pattern.cpp" test.cpp test.h "code/291.Word Pattern 2.cpp" "code/677. Map Sum Pairs.cpp")
+        "code/96. Unique Binary Search Trees.cpp" "code/53. Maximum Subarray.cpp" code/726_Number_of_Atoms.cpp "code/856. Score of Parentheses.cpp" "code/290. Word Pattern.cpp" test.cpp test.h "code/291.Word Pattern 2.cpp" "code/677. Map Sum Pairs.cpp" "code/307. Range Sum Query - Mutable.cpp")

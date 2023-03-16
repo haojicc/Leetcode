@@ -56,7 +56,12 @@
 <details><summary> BIT/Segment Tree: </summary>
 <p>
 
+Fenwick Tree was proposed to solve the prefix sum problem.<br>
+This method is faster to implement update operations than prefix-sum methods.<br>
+The idea is to store Partial Sum in each Node and get total sum by traversing the tree from leaf to root.<br>
+
 1. [307]
+2. [315]
 
 </p>
 </details>
